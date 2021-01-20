@@ -1,6 +1,7 @@
 warning = open('warning.txt', 'r')
 connexion = open('connexion.log', 'r')
 
+# exercice 1
 
 def log(file):
     z = list(file)
@@ -18,6 +19,7 @@ def log(file):
 
 #log(connexion)
 
+# exercice 1 et 2
 
 def warn(txt, logg):
     u = list(logg)
